@@ -1,0 +1,258 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio de Janeiro - História e Cultura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explorando o Rio de Janeiro</h1>
+        <div id="info-tempo-real">
+            <span id="data-hora"></span> | <span id="clima">Rio: 28°C</span>
+        </div>
+        <nav>
+            <button onclick="showSection('historias')">Histórias</button>
+            <button onclick="showSection('esportes')">Times & Esportes</button>
+            <button onclick="showSection('eventos')">Eventos</button>
+            <button onclick="showSection('viagens')">Viagens</button>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="historias" class="active">
+            <h2>Lugares Históricos</h2>
+            <div class="grid">
+                <article>
+                    <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2025/05/Maracana-1-edited-aspect-ratio-512-320.jpg" alt="Maracanã">
+                    <h3>Maracanã</h3>
+                    <p>Inaugurado em 1950 para a Copa do Mundo, o Maracanã é o templo do futebol mundial. Palco de milésimos gols e finais épicas.</p>
+                </article>
+                <article>
+                    <img src="https://www.paineirascorcovado.com.br/wp-content/webp-express/webp-images/uploads/elementor/thumbs/CristoRedentor2-oyzigktfdsprdoxdbhdrwm5vfd2wk05daondeyc820.png.web" alt="Cristo Redentor">
+                    <h3>Cristo Redentor</h3>
+                    <p>Símbolo máximo do Brasil, inaugurado em 1931 no topo do Corcovado.</p>
+                </article>
+                <article>
+                    <img src="https://brazilconnection.tur.br/wp-content/uploads/2025/05/museu-do-amanha-area-interna-768x432.webp" alt="Museu do Amanhã">
+                    <h3>Museu do Amanhã</h3>
+                    <p>Ícone da revitalização da Zona Portuária, focado em ciência e sustentabilidade.</p>
+                </article>
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Igreja_da_Penha_by_Diego_Baravelli_III.jpg/500px-Igreja_da_Penha_by_Diego_Baravelli_III.jpg" alt="Igreja da Penha">
+                    <h3>Igreja da Penha</h3>
+                    <p>Famosa por sua escadaria de 382 degraus esculpida na pedra, datada do século XVIII.</p>
+                </article>
+                <article>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Teatro_Municipal_-_panoramio_%284%29.jpg/500px-Teatro_Municipal_-_panoramio_%284%29.jpg" alt="Teatro Municipal">
+                    <h3>Teatro Municipal</h3>
+                    <p>Inaugurado em 1909, é um dos mais importantes teatros do Brasil.</p>
+                </article>
+                <article>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/23/e8/81/escadaria-selaron.jpg?w=800&h=500&s=1" alt="Escadaria Selarón">
+                    <h3>Escadaria Selarón</h3>
+                    <p>Obra de Jorge Selarón, unindo a Lapa e Santa Teresa com azulejos de todo o mundo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="esportes">
+            <h2>Times e Conquistas</h2>
+            <div class="grid">
+                <article>
+                    <img src="https://uploads.folhavitoria.com.br/2025/12/54982084038_39bb060041_k-984x553.jpg" alt="Flamengo">
+                    <h3>Flamengo - FIFA Challenger Cup 2025</h3>
+                </article>
+                <article>
+                    <img src="https://s2-oglobo.glbimg.com/Fa8m53xUJ0mKxF_8OveYLik1kno=/0x0:5040x3360/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/w/q/cOh9nLQsK3ZmGK6mS0TA/104929709-es-rio-de-janeiro-rj-04112023-futebol-copa-libertadores-da-america-2023-final-flumi.jpg" alt="Fluminense">
+                    <h3>Fluminense - Libertadores 2023</h3>
+                </article>
+                <article>
+                    <img src="https://s2-ge.glbimg.com/gRT49cHFL0RB8n8u5lVwFB8iCaE=/0x0:1920x1280/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/D/l/h56iiaTPqBAyRVKMCWsw/67a22ab437e9dc6d7c2ae0496ab34629015725e1w.jpg" alt="Botafogo">
+                    <h3>Botafogo - Libertadores 2024</h3>
+                </article>
+                <article>
+                    <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/wp-content-galerias/uploads/2020/12/565ec5a52845a_Easy-Resize.com_.jpg" alt="Vasco da Gama">
+                    <h3>Vasco da Gama - Copa do Brasil 2011</h3>
+                </article>
+            </div>
+            <h2>Esportes Populares</h2>
+            <div class="grid">
+                <img src="https://diariodorio.com/wp-content/uploads/2023/04/Futevolei-no-Rio-de-Janeiro.jpg" alt="Futevôlei">
+                <img src="https://s2.glbimg.com/KdQpOWcHFbrO43eNrXWjzShd6fw=/690x454/s2.glbimg.com/T4JgKUXBOs60iQLHESoMN8i4Ws4=/0x0:1999x1316/690x454/s.glbimg.com/es/ge/f/original/2016/08/05/2016-08-05t145335z_1859116120_rioec8515cu4q_rtrmadp_3_olympics-rio-rowing_UDqLtDe.jpg" alt="Remo">
+            </div>
+        </section>
+
+        <section id="eventos">
+            <h2>Eventos Populares</h2>
+            <div class="grid">
+                <article>
+                    <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/11/rock-in-rio-ingressos.jpg?w=419&h=283&crop=0" alt="Rock in Rio">
+                    <h3>Rock in Rio</h3>
+                </article>
+                <article>
+                    <img src="https://viagem.cnnbrasil.com.br/wp-content/uploads/sites/5/2025/12/reveillon_rio-de-janeiro_2025.webp?w=419&h=283&crop=0" alt="Réveillon">
+                    <h3>Réveillon Copacabana</h3>
+                </article>
+            </div>
+            <h2>Gastronomia Carioca</h2>
+            <div class="grid">
+                <img src="https://www.fuiserviajante.com/wp-content/uploads/2024/07/pastel-de-feira-comidas-tipicas-rio-de-janeiro-7-768x432.jpg.webp" alt="Pastel de Feira">
+                <img src="https://www.fuiserviajante.com/wp-content/uploads/2024/07/sanduiche-cervantes-comidas-tipicas-rio-de-janeiro-3-768x576.jpg.webp" alt="Sanduíche de Pernil">
+                <img src="https://ogimg.infoglobo.com.br/in/15434587-d4b-819/FT1086A/2013-629874082-2013071200487.jpg_20130718.jpg" alt="Biscoito Globo">
+            </div>
+        </section>
+
+        <section id="viagens">
+            <h2>Rotas de Juiz de Fora para o Rio</h2>
+            <div class="info-box">
+                <p><strong>Ônibus:</strong> Aprox. R$ 75,00 - R$ 120,00 (Tempo: 3h 15min)</p>
+                <p><strong>Avião:</strong> Consultar voos regionais (Custo variado)</p>
+                <p><strong>Carro:</strong> 180km via BR-040. Pedágios: Aprox. R$ 60,00 total.</p>
+                <p><strong>Tempo de Viagem:</strong> 2h 30min (Carro).</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Isaac Nicholas</p>
+        <a href="https://github.com/seu-usuario" target="_blank">
+            <i class="fab fa-github"></i> GitHub Profile
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e21;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+nav button:hover {
+    background: #e21;
+    border-color: #e21;
+}
+
+section {
+    display: none;
+    padding: 40px 20px;
+    animation: fadeIn 0.5s ease;
+}
+
+section.active {
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+article {
+    background: #111;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.info-box {
+    background: #222;
+    padding: 20px;
+    border-left: 5px solid #e21;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #111;
+    margin-top: 50px;
+}
+
+footer i {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style><script>// Função para trocar as seções sem travar (60 FPS)
+function showSection(id) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.classList.remove('active');
+    });
+    
+    document.getElementById(id).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Atualizar Relógio e Data
+function updateTime() {
+    const now = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+    document.getElementById('data-hora').innerText = now.toLocaleDateString('pt-BR', options);
+}
+
+setInterval(updateTime, 1000);
+updateTime();
+
+// Simulação de carregamento rápido de imagens
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Portal Rio de Janeiro carregado com sucesso.");
+});
+</script>
